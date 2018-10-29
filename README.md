@@ -1,6 +1,6 @@
-Kendime bir başlangıç rehberi kurma adına oluşturduğum bu listeyi internette paylaşmaya karar verdim, belki faydalı olur :)
-
 # Linux Hakkında
+
+Kendime bir başlangıç rehberi kurma adına oluşturduğum bu listeyi internette paylaşmaya karar verdim, belki faydalı olur :)
 
 ## Depolar
 
@@ -47,7 +47,7 @@ $ make -j $(nproc --all)
 $ sudo make install
 ```
 
-# Çekirdek (Kernel) Güncelleme
+## Çekirdek (Kernel) Güncelleme
 
 Alıntıladığım link için [buraya](https://www.cyberciti.biz/tips/compiling-linux-kernel-26.html) tıklayabilirsin.
 
@@ -117,11 +117,11 @@ Sistemin çekirdek sürümünü gösterme
 uname -mrs
 ```
 
-# Pardus Ayarları
+## Pardus Ayarları
 
 Pardus için gerekli bulduğum birkaç ayara yer vereyim
 
-## Pencerelerdeki İçerikleri Kaydırırken Odağın Değişmesi
+### Pencerelerdeki İçerikleri Kaydırırken Odağın Değişmesi
 
 Ayarlar
 
@@ -131,7 +131,7 @@ Erişilebilirlik sekmesi
 
 Herhangi bir fare tuşuna basıldığında pencereleri yükselt
 
-## Alt panel boyutu
+### Alt panel boyutu
 
 Panel'e sağ tıklayın 
 
@@ -143,11 +143,11 @@ Görüntüle - Ölçümler alanında **Satır Boyutu** 29-33 arası bir değer y
 
 
 
-# Programlar
+## Programlar
 
 Severek kullandığım bir kaç program :)
   
-## Opera
+### Opera
 [Buraya](https://www.opera.com/tr) tıklayarak Opera'nın son sürümünü indirmelisin.
 
 Ardından indirdiğin dizinde terminali açarak alttaki komutları yazmalısın;
@@ -163,7 +163,7 @@ Artık terminale alttaki komutu yazarak operayı açabilirsin :)
 opera
 ```
 
-### Adobe Flash Player kurulumu
+#### Adobe Flash Player kurulumu
 
 [Buraya](https://get.adobe.com/tr/flashplayer/otherversions/) tıklayarak Adobe Flash Player'i **altta verilen ayarlarla** indirmeilisin.
 
@@ -181,7 +181,7 @@ sudo mkdir /usr/lib/adobe-flashplugin/
 sudo cp -r * /usr/lib/adobe-flashplugin/
 ```
 
-### Opera özelliklerini aktif etme
+#### Opera özelliklerini aktif etme
 
 Opera tarayıcısında iken **ALT** tuşuna basın ve **Ayarlar** menüsüne girin.
 
@@ -211,7 +211,7 @@ sudo apt autoremove
 
 ---
 
-## VS Code
+### VS Code
 [Buraya](https://code.visualstudio.com/download) tıklayarak VS Code indirme sayfasından **.deb x64** adlı linke tıklayın.
 
 İndirme işlemi tamamlandıktan sonra, indirdiğiniz dizine girip, sağ tıklayın **Burada Termianl Aç** yazısına tıklayın.
@@ -229,7 +229,7 @@ Artık terminale alttaki komutu yazarak VS Code'u açabilirsin :)
 code [dizin / dosya]
 ```
 
-### VS Code Özelleştirme
+#### VS Code Özelleştirme
 
 Menu - File - Preferences - Settings
 
@@ -251,7 +251,7 @@ Açılan ekrana şunları kopyalayın ve gerekli olanları **Extensions** alanı
 ```
 
 
-## Git
+### Git
 
 Git kurulumu çok kolaydır. Alttaki komutu yazmanız yeterlidir.
 
@@ -259,7 +259,7 @@ Git kurulumu çok kolaydır. Alttaki komutu yazmanız yeterlidir.
 sudo apt-get install git
 ```
 
-## Node.js
+### Node.js
 
 Node kurmak için alttaki komutları yazmanız yeterlidir.
 
@@ -270,11 +270,11 @@ sudo apt-get install -y nodejs
 
 > `wget -q0-` komutu `/etc/apt/sources.list.d/`  dizinine node deposunu ekliyor
 
-## Anaconda
+### Anaconda
 
 **Eski python sürümleri kaldırılmak zorunda değildir!**. İsteğe bağlıdır.
 
-### Eski Python sürümlerini kaldırmak
+#### Eski Python sürümlerini kaldırmak
 
 Tüm pythonları ve bağımlılıklarını kaldırma ve ardında bıraktıklarını temizlemek için alttaki komutları girin
 
@@ -283,7 +283,7 @@ sudo apt-get purge 'python*'
 sudo apt-get autoremove
 ```
 
-### Anaconda kurulumu
+#### Anaconda kurulumu
 
 [Buraya](https://www.anaconda.com/download/#linux) tıklayarak Anaconda3 dosyasını **linux** için indirin.
 
@@ -299,7 +299,7 @@ Adım adım alttaki işlemleri yapın;
 * `source ~/.bashrc` İşlemler bittiğinde yazılacak komut.
 * `anaconda-navigator` ile yüklenen anaconda uygulamasını açabiliriz
 
-### Anaconda3 ile openCV kurulumu
+#### Anaconda3 ile openCV kurulumu
 
 Aşağıdaki komut yardımı ile condo üzerinden opencv ve gereksinimlerini indirebilirsiniz;
 
