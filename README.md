@@ -1,4 +1,3 @@
-# LinuxGirisNotlarim
 Kendime bir başlangıç rehberi kurma adına oluşturduğum bu listeyi internette paylaşmaya karar verdim, belki faydalı olur :)
 
 # Linux Hakkında
@@ -302,13 +301,13 @@ Adım adım alttaki işlemleri yapın;
 
 ### Anaconda3 ile openCV kurulumu
 
-Aşağıdaki komut yardımı ile condo üzerinden opencv3 (python3 için) indirebilirsiniz;
+Aşağıdaki komut yardımı ile condo üzerinden opencv ve gereksinimlerini indirebilirsiniz;
 
 ```bash
-conda install -c menpo opencv3
+conda install -c conda-forge opencv
 ```
 
-> Çıkan ekranda `yes` yazmanız gerekmekte
+> Çıkan ekranda `y` yazmanız gerekmekte
 
 
 
