@@ -83,19 +83,21 @@ sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf
 Çekirdeği tüm işlemci çekirdeklerini kullanarak derleme (çekirdek hızı arttıracaktır)
 
 ```bash
-make -j $(nproc)
+make 0=/home/$USER/build/kernel -j $(nproc)
 ```
+> `0=...` komutu ile derlenme dizini "/home/kullanıcı_adi/build/kernel dizini olacaktır. İstemiyorsanız değiştirebilir veya silebilirsiniz. 
+
 
 Çekirdek modüllerini yükleme
 
 ```bash
-sudo make modules_install
+sudo make 0=/home/$USER/build/kernel modules_install
 ```
 
 Linux çekirdeğini yükleme
 
 ```bash
-sudo make install
+sudo make 0=/home/$USER/build/kernel install
 ```
 
 Grub yapılandırmayı güncelleme
