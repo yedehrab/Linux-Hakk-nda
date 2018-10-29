@@ -13,14 +13,16 @@ cp -v /boot/config-$(uname -r) .config
 # Gerekli yazılımları kurma
 sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev
 
+## 0=/home/$USER/build/kernel dizinine yüklenir ve derlenir
+
 # TÜm çekirdekleri kullanarak derleme
-make -j $(nproc)
+make 0=/home/$USER/build/kernel -j $(nproc)
 
 # Modulleri yükleme
-sudo make modules_install
+sudo make 0=/home/$USER/build/kernel modules_install
 
 # Yükleme
-sudo make install
+sudo make 0=/home/$USER/build/kernel install
 
 # Boot ayarları yenileme
 sudo update-initramfs -c -k 4.19
