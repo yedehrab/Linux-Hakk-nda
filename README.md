@@ -219,6 +219,23 @@ sudo apt autoremove
 
 ---
 
+### LibreOffice Kurma
+
+İlk olarak eski LibreOffice'i kaldırmamız gerekmekte.
+
+```bash
+sudo apt-get remove 'libreoffice*'
+```
+
+Ardından [buraya](https://tr.libreoffice.org/indir/libreoffice-taze-surum/?type=deb-x86_64) tıklayarak LibreOffice indirme sayfasından **Linux x64 (deb)** için indirin.
+
+İndirme işlemi tamamlandıktan sonra, indirdiğiniz dizine girip, sağ tıklayın **Burada Termianl Aç** yazısına tıklayın.
+
+```bash
+cd DEBS
+sudo dpkg -i *.deb
+```
+
 ### VS Code
 [Buraya](https://code.visualstudio.com/download) tıklayarak VS Code indirme sayfasından **.deb x64** adlı linke tıklayın.
 
