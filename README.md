@@ -143,7 +143,13 @@ Görüntüle - Ölçümler alanında **Satır Boyutu** 29-33 arası bir değer y
 
 Öğeler Kısmından da panel öğelerinin sıralarını ayarlayabilirsin.
 
+### Del - Backspace Tuşlarına Basınca Çıkan Bip Sesi
 
+Alttaki komut ile çıkan sesleri kapatabilirsin.
+
+```bash
+xset b off
+```
 
 ## Programlar
 
