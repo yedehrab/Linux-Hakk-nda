@@ -274,7 +274,11 @@ Açılan ekrana şunları kopyalayın ve gerekli olanları **Extensions** alanı
     "editor.fontSize": 13.7
 }
 ```
+#### Vs Code'un Thunar'ın yerini alma sorunu
 
+Tarayıcı üzerinden "Bulunduğu klasörü aç" dendiğinde thunar yerine vscode ile açılma sorunu çözümü
+
+https://github.com/Microsoft/vscode/issues/44344
 
 ### Git
 
