@@ -121,6 +121,8 @@ uname -mrs
 
 ## Pardus Ayarları
 
+> Pardus **DDE**'yi kesimlikle tavsiye ederim, görsel alanda çok iyidir. Bu alttaki ayarlar **XFCE** içindir.
+
 Pardus için gerekli bulduğum birkaç ayara yer vereyim
 
 ### Pencerelerdeki İçerikleri Kaydırırken Odağın Değişmesi
@@ -327,6 +329,11 @@ Adım adım alttaki işlemleri yapın;
 * `yes` ile anacondayı sistem yollarına ekliyoruz
 * `source ~/.bashrc` İşlemler bittiğinde yazılacak komut.
 * `anaconda-navigator` ile yüklenen anaconda uygulamasını açabiliriz
+
+> Eğer komut bulunamadı hatası alıyorsan, [buraya](Bilgiler/LinuxPath.md)  tıklayarak PATH'e ekleyin
+
+tıklayarak nasıl yapacağını öğrenebilirsin :)
+
 
 #### Anaconda3 ile openCV kurulumu
 
