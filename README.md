@@ -334,8 +334,18 @@ Adım adım alttaki işlemleri yapın;
 
 tıklayarak nasıl yapacağını öğrenebilirsin :)
 
+#### Python Pip ile OpenCV Kurulum
+
+```bash
+pip install --upgrade pip
+pip install twisted
+python -m pip install opencv-python
+```
+
 
 #### Anaconda3 ile openCV kurulumu
+
+> Not: Bu sistem cv2.imshow(...) da hata vermektedir. GUI'lerde sorun oluşturabilmekte.
 
 Aşağıdaki komut yardımı ile condo üzerinden opencv ve gereksinimlerini indirebilirsiniz;
 
@@ -344,6 +354,10 @@ conda install -c conda-forge opencv
 ```
 
 > Çıkan ekranda `y` yazmanız gerekmekte
+
+
+Kaynaklar:
+https://www.scivision.co/install-opencv-python-windows/
 
 
 
