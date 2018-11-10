@@ -273,9 +273,21 @@ Açılan ekrana şunları kopyalayın ve gerekli olanları **Extensions** alanı
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Base16 Tomorrow Dark",
     "editor.fontWeight": "500",
-    "editor.fontSize": 13.7
+    "editor.fontSize": 13.7,
+    "window.titleBarStyle": "custom",
 }
 ```
+> OpenCv'de cv2 ile alakalı gereksiz hataları kapatmak için
+
+```JSON
+{
+    "python.linting.pylintArgs": [
+        "--extension-pkg-whitelist=cv2"
+    ]
+}
+```
+
+
 #### Vs Code'un Thunar'ın yerini alma sorunu
 
 Tarayıcı üzerinden "Bulunduğu klasörü aç" dendiğinde thunar yerine vscode ile açılma sorunu çözümü
