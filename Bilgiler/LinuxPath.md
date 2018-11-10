@@ -2,12 +2,9 @@
 
 ## Terminal (Uçbirim) dosyası
 
-Terminal dosyası terminal açılmadan önce çalışacak eylemleri barındırmakta,
-buraya `export` ile isteğe bağlı PATH ekleyebilirsin.
+`~/.bashrc` Dizinindeki terminal dosyası terminal açılmadan önce çalışacak eylemleri barındırmakta, Herhangi bir *text düzenleyicisi* ile bu dosyayı açıp `export` ile istediğin PATH verilerini ekleyebilirsin.
 
-> Yolu: `~/.bashrc`
-
-Yukarıdaki dosyayı herhangi bir text editörüyle açıp en altına şu kodu ekleyebilirsin.
+> Alttaki kodları en alt satıra kopyalayın
 
 ```bashrc
 # Anaconda3'ün terminale eklenmesi

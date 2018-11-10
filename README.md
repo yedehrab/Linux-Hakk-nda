@@ -326,7 +326,10 @@ Adım adım alttaki işlemleri yapın;
 * `bash ~/İndirilenler/Anaconda3-*.sh` İndirme scriptini başlatma
 * `yes` yazarak koşulları kabul ediyoruz
 * `/home/<user>/anaconda3` ile indirileceği konumu özelleştirebiliriz
-* `yes` ile anacondayı sistem yollarına ekliyoruz
+
+> Not sistem yollarına eklerseniz `~/.bashrc` adlı dosyaya anaconda veri yazacaktır ve bu veri terminalin 1sn gecikme ile yüklenmesine sebeb olacaktır. Bunun yerine `no` deyip, [buraya](Bilgiler/LinuxPath.md) tıklayarak elden eklemeneniz terminal hızını etkilemeyecektir. (hissettirmeyecek)
+
+* `yes` ile anacondayı sistem yollarına ekliyoruz. (*İsteğe bağlı*) 
 * `source ~/.bashrc` İşlemler bittiğinde yazılacak komut.
 * `anaconda-navigator` ile yüklenen anaconda uygulamasını açabiliriz
 
