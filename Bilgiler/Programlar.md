@@ -239,3 +239,14 @@ pip install tensorflow
 
 > Eğer üstteki komuttta "*Could not find a version that satisfies the requirement tensorflow (from versions: )
 > No matching distribution found for tensorflow*" şeklinde hata alıyorsanız [buraya](https://stackoverflow.com/questions/38896424/tensorflow-not-found-using-pip) veya [buraya](https://github.com/keras-team/keras/issues/6545) bakmanda fayda var.
+
+
+### Pip ile Keras Kurulumu
+
+Keras neural network (sinir ağları) üzerine işlemler yapacak olan kişiler için ideal bir yazılımdır.
+
+> Not: Öncelikle tensorflow indirilmelidir.
+
+```bash
+pip install keras
+```
