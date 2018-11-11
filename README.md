@@ -349,7 +349,14 @@ Adım adım alttaki işlemleri yapın;
 
 tıklayarak nasıl yapacağını öğrenebilirsin :)
 
-#### Python Pip ile OpenCV Kurulum
+#### Pip ile OpenCV Kurulum
+
+```bash
+pip install --upgrade pip
+pip install opencv-contrib-python
+```
+
+> Alttaki komutlar **alternatiftir**
 
 ```bash
 pip install --upgrade pip
