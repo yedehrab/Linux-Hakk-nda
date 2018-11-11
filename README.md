@@ -371,6 +371,20 @@ conda install -c conda-forge opencv
 > Çıkan ekranda `y` yazmanız gerekmekte
 
 
+#### Pip ile tensorflow kurulumu
+
+```bash
+pip install tensorflow
+```
+
+> Eğer üstteki komuttta "*Could not find a version that satisfies the requirement tensorflow (from versions: )
+> No matching distribution found for tensorflow*" şeklinde hata alıyorsanız alttaki komudu uygulayın.
+
+```bash
+python3 -m pip install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.12.0-py3-none-any.whl
+```
+
+
 Kaynaklar:
 https://www.scivision.co/install-opencv-python-windows/
 
