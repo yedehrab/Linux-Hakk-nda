@@ -250,3 +250,10 @@ Keras neural network (sinir ağları) üzerine işlemler yapacak olan kişiler i
 ```bash
 pip install keras
 ```
+
+
+## MySQL Kurulumu
+
+MySQL çok sık kullanılanan SQL Database uygulamasıdır.
+
+> [Buraya](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-16-04) tıklayarak öğrenebilirsin.
