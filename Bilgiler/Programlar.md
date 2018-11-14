@@ -158,9 +158,28 @@ sudo apt-get install -y nodejs
 
 > `wget -q0-` komutu `/etc/apt/sources.list.d/`  dizinine node deposunu ekliyor
 
+## Python Kurulumu
+
+Gerekli paketlerin yüklenmesi
+
+```bash
+sudo apt-get install build-essential zlib1g-dev libffi-dev
+```
+
+> Not kuruluma başlamadan önce klasörü istediğiniz dizine taşıyın.
+
+Python'un Kurulumu
+
+```bash
+ ./configure
+    make -j $(nproc)
+    make -j $(nproc) test
+    sudo make -j $(nproc) install
+```
+
 ## Anaconda
 
-**Eski python sürümleri kaldırılmak zorunda değildir!**. İsteğe bağlıdır.
+**Eski python sürümleri kaldırılmak zorunda değildir!**. *Tavsiye edilmez*.
 
 ### Eski Python sürümlerini kaldırmak
 
