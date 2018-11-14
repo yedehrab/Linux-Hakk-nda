@@ -201,7 +201,7 @@ Adım adım alttaki işlemleri yapın;
 * `sha256sum /yol/dosyaismi` Paketin doğruluğunu kontrol etme
 * `bash ~/İndirilenler/Anaconda3-*.sh` İndirme scriptini başlatma
 * `yes` yazarak koşulları kabul ediyoruz
-* `/home/<user>/anaconda3` ile indirileceği konumu özelleştirebiliriz
+* `/home/$HOME/anaconda3` ile indirileceği konumu özelleştirebiliriz
 
 > Not sistem yollarına eklerseniz `~/.bashrc` adlı dosyaya anaconda veri yazacaktır ve bu veri terminalin 1sn gecikme ile yüklenmesine sebeb olacaktır. Bunun yerine `no` deyip, [buraya](./Linux_Path.md) tıklayarak elden eklemeneniz terminal hızını etkilemeyecektir. (hissettirmeyecek)
 
@@ -249,16 +249,6 @@ conda install -c conda-forge opencv
 ```bash
 conda install -c conda-forge tensorflow
 ```
-
-### Pip ile tensorflow kurulumu
-
-```bash
-pip install tensorflow
-```
-
-> Eğer üstteki komuttta "*Could not find a version that satisfies the requirement tensorflow (from versions: )
-> No matching distribution found for tensorflow*" şeklinde hata alıyorsanız [buraya](https://stackoverflow.com/questions/38896424/tensorflow-not-found-using-pip) veya [buraya](https://github.com/keras-team/keras/issues/6545) bakmanda fayda var.
-
 
 ### Pip ile Keras Kurulumu
 
