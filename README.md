@@ -28,6 +28,9 @@ Severek kullandığım bir kaç program için [buraya](Bilgiler/Programlar.md) t
 
 > Ayrıca [buraya](./Programlar/) tıklayarak *Programlar* dosyasına da bakabilirsin.
 
+## Temel Git Komutları
+
+Temel git ve heroku komutları için [buraya](https://github.com/yedehrab/Temel-Git-Komutlari) tıklayabilirsin.
 
 
 
