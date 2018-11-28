@@ -1,4 +1,4 @@
-# Global properties
+﻿# Global properties
 title-text: ""
 desktop-image: "background.png"
 desktop-color: "#000000"
@@ -36,6 +36,8 @@ terminal-border: "0"
   # text = "Start in %d Sekunden."
   # EN
   text = "Booting in %d seconds"
+  # TR
+  text = "%d saniye içerisinde başlatılacak"
   # ES
   # text = "Arranque en %d segundos"
   # FR
@@ -66,6 +68,8 @@ terminal-border: "0"
   # text = "System mit ↑ und ↓ auswählen und mit Enter bestätigen."
   # EN
   text = "Use ↑ and ↓ keys to change selection, Enter to confirm"
+  # TR
+  text = "Seçim yapmak için ↑ ve ↓ oklarını kullanın, onaylamak için ENTER"
   # ES
   # text = "Use las teclas ↑ y ↓ para cambiar la selección, Enter para confirmar"
   # FR
