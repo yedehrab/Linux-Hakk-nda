@@ -266,3 +266,15 @@ pip install keras
 MySQL çok sık kullanılanan SQL Database uygulamasıdır.
 
 > [Buraya](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-16-04) tıklayarak öğrenebilirsin.
+
+## OpenJDK Kurulumu
+
+Pardus için hızlı kurulum:
+
+```bash
+sudo apt-get install openjdk-8-jdk
+```
+
+> [Buraya](https://openjdk.java.net/install/) tıklayarak resmi sitesine gidebilirsin.
+
+
