@@ -1,13 +1,15 @@
 ﻿# Değiştirilmiş Temadır
 
-**install.sh** ile yükleyebilirsiniz.
+**[distro]-install.sh** aracılığya yükleyebilirsiniz.
+
+## Pardus
 
 ```bash
-sudo bash ./install.sh
+sudo bash ./pardus-install.sh
 ```
 
 
-## Elle yükleme
+### Elle yükleme (Pardus)
 
 Alttaki komutlar ile yükleyebilirsiniz.
 
@@ -18,6 +20,6 @@ sudo mv -fv * /boot/grub/themes/deepin/
 sudo update-grub2
 ```
 
-### Orjinal Tema
+## Orjinal Tema
 
 - [Poly Dark Grub theme](https://www.opendesktop.org/p/1230780/)
