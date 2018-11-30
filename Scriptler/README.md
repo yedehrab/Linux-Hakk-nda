@@ -2,13 +2,16 @@
 
 Scriptleri kullanmak için alttaki komutu uygulayın
 
+
+## Kullanımı
+
 ```bash
 bash ./[script]
 ``` 
 
-## Açıklamalar
-
 > Risk taşımaz :)
+
+### Script dosyaları
 
 * `init-coder-apps.sh` Programlama için gerekli uygulamları toplu olarak kurma
 * `kvm-install.sh` Android Emulator için kvm (virtual machine) kurma
