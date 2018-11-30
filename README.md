@@ -34,5 +34,3 @@ Temel git ve heroku komutları için [buraya](https://github.com/yedehrab/Temel-
 
 
 
-
-
