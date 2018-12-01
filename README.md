@@ -6,8 +6,10 @@ Kendime bir başlangıç rehberi kurma adına oluşturduğum bu listeyi internet
 
 - `/etc/apt/sources.list/` Resmi depolar
 - `/etc/apt/sources.list.d/` dizininde uygulama depoları saklanır.
-- `thunar` komutu ile dosya gezginleri ile açabilirsin. (*thunar pardus içindir*)
-
+- Dosya gezgini için:
+  - `thunar` Pardus
+  - `nautilus` Ubuntu
+  
 ## Komutlar
 
 [Buraya](./Bilgiler/Linux_Komutları.md) tıklayarak linux için kullanılan komutlara bakabilirsin. (Program / Dosya Yükleme, kaldırma, güncelleme vs.)
