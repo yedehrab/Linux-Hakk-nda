@@ -18,4 +18,4 @@ echo $(komut)
 * `komut` Herhangi kullanılabilir komut (örn: nproc)
 * Örnek Kullanım: `echo $(nproc)` İşlemcideki çekirdek sayısını gösterir
 
-> Komutlar hakkında detaylı bilgi almak için [buraya](./Linux_komutları.md) tıklayabilirsin.
+> Komutlar hakkında detaylı bilgi almak için [buraya](./Linux_Komutları.md) tıklayabilirsin.
