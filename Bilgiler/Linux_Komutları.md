@@ -13,6 +13,18 @@ Detalar için [buraya](https://gist.github.com/sayz/1130312/a45b548b82ee459e05a9
 - `sudo apt-get purge 'paket*'` paket ile başlayan tüm paketleri ve alt bileşenlerini kaldırma
 - `sudo apt-cache search paketadi` Depoda paketadi arama işlemi
 
+## Kısayol oluşturma
+
+Detaylar için [buraya](https://manpages.debian.org/stretch/coreutils/ln.1.en.html) tıklayabilirsin.
+
+```bash
+sudo ln -s /dosya/yolu/ dosyaAdi
+```
+- `ln` İki dosya arasında link oluşturma
+- `-s` Statik link yerine sembolik link oluşturma
+- `/dosya/yolu` Örneğin /home/$USER
+- `dosyaAdi` Oluşturulacak kısayolun ismi
+
 ## Kurulum Komutları
 
 İndirdiğimiz dosyaları kurmak için gerkeli olan bir dize komutlar.
