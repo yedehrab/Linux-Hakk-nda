@@ -9,7 +9,7 @@ Kendime bir başlangıç rehberi kurma adına oluşturduğum bu listeyi internet
 - Dosya gezgini için:
   - `thunar` Pardus
   - `nautilus` Ubuntu
-  
+
 ## Komutlar
 
 [Buraya](./Bilgiler/Linux_Komutları.md) tıklayarak linux için kullanılan komutlara bakabilirsin. (Program / Dosya Yükleme, kaldırma, güncelleme vs.)
