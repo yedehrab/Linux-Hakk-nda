@@ -1,7 +1,10 @@
 # Ubuntu-Cosmic için indirdiğim uygulamalar
 
+clear
 echo '------------------------------------------------'
 echo 'Yazılımcılar için gerekli uygulamaların kurulumu'
+echo 'Yunus Emre Ak'
+echo 'Ubuntu 18.10 Cosmic üzerinde denenmiştir.'
 echo '------------------------------------------------'
 echo 
 echo 'Paketlerin güncelleniyor.'
@@ -77,6 +80,8 @@ then
 	echo '-----------------------------------'
 	echo
 	sudo apt-get install libpostgresql-jdbc-java libpostgresql-jdbc-java-doc
+	echo
+	echo '---------------------------------------------------------'
 	echo 'Dosyanın en altına şu satırı ekleyin:'
 	echo 'export CLASSPATH=$CLASSPATH:/usr/share/java/postgresql-42.2.5.jar'
 	sudo gedit ~/.bashrc
