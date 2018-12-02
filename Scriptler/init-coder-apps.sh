@@ -77,8 +77,8 @@ then
 	echo '-----------------------------------'
 	echo
 	sudo apt-get install libpostgresql-jdbc-java libpostgresql-jdbc-java-doc
-	echo 'Dosyanın en altına bunu ekleyin'
-	echo 'export CLASSPATH=$CLASSPATH:/usr/share/java/postgresql-42.1.4.jar'
+	echo 'Dosyanın en altına şu satırı ekleyin:'
+	echo 'export CLASSPATH=$CLASSPATH:/usr/share/java/postgresql-42.2.5.jar'
 	sudo gedit ~/.bashrc
 fi
 
