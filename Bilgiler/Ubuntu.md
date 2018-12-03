@@ -14,6 +14,8 @@ Orjinal sayfayı görmek istiyorsan [buraya](https://help.ubuntu.com/stable/ubun
 
 > Kaydetme işlemi varsa `$HOME/Pictures` dizinine, yoksa `$HOME` dizinine yapılır. (Kaydetme ismi: *Screenshot-date*)
 
+> `ctrl` tuşuna basılı tutarak, dizine kaydetmek yerine panoya kopyalatabilirsin.
+
 ### Ekranı Kayıt Etme
 
 - `ctrl + alt + shift + r` *Ekranda ne varsa* kayıt altına almaya başlar. Kayıt varsa sonlandırır.
