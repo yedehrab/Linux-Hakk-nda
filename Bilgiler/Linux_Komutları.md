@@ -25,6 +25,36 @@ sudo ln -s /dosya/yolu/ dosyaAdi
 - `/dosya/yolu` Örneğin /home/$USER
 - `dosyaAdi` Oluşturulacak kısayolun ismi
 
+### Desktop kısayolu oluşturma
+
+Text editörü açıp
+
+```bash
+gedit dosya/yolu.desktop
+```
+
+Alttaki alanda gerekli yerleri doldurun.
+
+```txt
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=command to run here
+Name=visible name here
+Comment=comment here
+Icon=icon path here
+```
+
+Son olarak dosyanın bulunduğu dizinde terminali açıp, dosyayı güvenilir olarak işaretleyin (?)
+
+```bash
+chmod +x dosyadi.desktop
+```
+
+
 ## Kurulum Komutları
 
 İndirdiğimiz dosyaları kurmak için gerkeli olan bir dize komutlar.
