@@ -12,6 +12,62 @@ echo '-------------------------'
 
 sudo apt-get update
 
+
+
+
+echo '-----------------------------------'
+read -p "C / C++ Compiier indirmek ister misin? [y/n] " # -n 1 -r
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+	echo '-----------------------------------'
+	echo
+	sudo apt-get install build-essential
+fi
+
+echo '-----------------------------------'
+read -p "Java (OpenJDK-11, javac, java vs.) indirmek ister misin? [y/n] " # -n 1 -r
+if [[ $REPLY =~ ^[Yy]$ ]]
+then	
+	echo '-----------------------------------'
+	sudo apt-get install openjdk-11-jdk openjdk-11-doc
+fi
+
+echo '-----------------------------------'
+read -p "PostgreSQL indirmek ister misin? [y/n] " # -n 1 -r
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+	echo '-----------------------------------'
+	echo
+	sudo apt-get install postgresql
+
+	echo '-----------------------------------'
+	read -p "PostgreSQL JDBC Driver indirmek ister misin? [y/n] " # -n 1 -r
+	if [[ $REPLY =~ ^[Yy]$ ]]
+	then
+		echo '-----------------------------------'
+		echo
+		sudo apt-get install libpostgresql-jdbc-java libpostgresql-jdbc-java-doc
+		echo
+		echo '---------------------------------------------------------'
+		echo 'Birazdan açılacak olan dosyanın en altına şu satırı ekleyin:'
+		echo 'export CLASSPATH=$CLASSPATH:/usr/share/java/postgresql-42.2.5.jar'
+		echo
+		read -p "Hazır olduğunzda ENTER'a basın."
+		sudo gedit ~/.bashrc
+	fi
+fi
+
+
+echo '-----------------------------------'
+read -p "Nodejs (v11) indirmek ister misin? [y/n] " # -n 1 -r
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+	echo '-----------------------------------'
+	echo
+	wget -qO https://deb.nodesource.com/setup_11.x | sudo -E bash -
+	sudo apt-get install nodejs
+fi
+
 echo '-----------------------------------'
 read -p "Git indirmek ister misin? [y/n] " # -n 1 -r
 if [[ $REPLY =~ ^[Yy]$ ]]
@@ -46,46 +102,9 @@ then
 	sudo apt-get autoremove
 fi
 
-echo '-----------------------------------'
-read -p "Nodejs (v11) indirmek ister misin? [y/n] " # -n 1 -r
-if [[ $REPLY =~ ^[Yy]$ ]]
-then
-	echo '-----------------------------------'
-	echo
-	wget -qO https://deb.nodesource.com/setup_11.x | sudo -E bash -
-	sudo apt-get install nodejs
-fi
 
-echo '-----------------------------------'
-read -p "OpenJDK-11 (javac, java vs.) indirmek ister misin? [y/n] " # -n 1 -r
-if [[ $REPLY =~ ^[Yy]$ ]]
-then	
-	echo '-----------------------------------'
-	sudo apt-get install openjdk-11-jdk
-fi
 
-echo '-----------------------------------'
-read -p "PostgreSQL indirmek ister misin? [y/n] " # -n 1 -r
-if [[ $REPLY =~ ^[Yy]$ ]]
-then
-	echo '-----------------------------------'
-	echo
-	sudo apt-get install postgresql
-fi
 
-echo '-----------------------------------'
-read -p "PostgreSQL JDBC Driver indirmek ister misin? [y/n] " # -n 1 -r
-if [[ $REPLY =~ ^[Yy]$ ]]
-then
-	echo '-----------------------------------'
-	echo
-	sudo apt-get install libpostgresql-jdbc-java libpostgresql-jdbc-java-doc
-	echo
-	echo '---------------------------------------------------------'
-	echo 'Dosyanın en altına şu satırı ekleyin:'
-	echo 'export CLASSPATH=$CLASSPATH:/usr/share/java/postgresql-42.2.5.jar'
-	sudo gedit ~/.bashrc
-fi
 
 
 

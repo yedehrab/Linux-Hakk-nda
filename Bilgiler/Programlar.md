@@ -114,12 +114,14 @@ Açılan ekrana şunları kopyalayın ve gerekli olanları **Extensions** alanı
 
 ```JSON
 {
+    "telemetry.enableTelemetry": false,
     "window.menuBarVisibility": "toggle",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Base16 Tomorrow Dark",
     "editor.fontWeight": "500",
     "editor.fontSize": 13.7,
-    "window.titleBarStyle": "custom",
+    "window.titleBarStyle": "custom"
+    
 }
 ```
 > OpenCv'de cv2 ile alakalı gereksiz hataları kapatmak için
